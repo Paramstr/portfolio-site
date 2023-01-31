@@ -1,6 +1,7 @@
+import Header from '@/components/Header'
+import Hero from '@/components/Hero'
 import Head from 'next/head'
 import Image from 'next/image'
-
 
 export default function Home() {
   return (
@@ -12,7 +13,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <h1 className= "text-blue-500">Hello world! </h1>
+      <Header /> 
+      
+      {/* Hero */}
+      <section id= "Hero">
+
+        <Hero/>
+
+      </section>
+      {/* About */}
+
+      {/* Experience */}
+
+      {/* Skills */}
+
+      {/* Projects */}
+
+      {/* Contact Me */}
+      
+
 
     </>
   )
