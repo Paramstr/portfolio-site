@@ -5,7 +5,8 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className = "bg-[rgb(57,64,73)] text-white h-screen snap-mandatory overflow-scroll z-0">
+    <div className = "bg-[rgb(66,67,68)] text-white h-screen snap-mandatory overflow-scroll z-0"> {/* z-0 means base layer */} 
+
       <Head>
         <title> Params Portfolio</title>
       </Head>
