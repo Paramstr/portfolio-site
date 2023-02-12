@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     remotePatterns: [{
       protocol: 'https',
-      hostname: 'media.discordapp.net',
+      hostname: 'cdn.discordapp.com',
       port: '',
 
     }]

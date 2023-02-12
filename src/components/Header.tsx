@@ -27,17 +27,17 @@ export default function Header({}: Props) {
 
         <SocialIcon 
         url="https://twitter.com/jaketrent"
-        fgColor="gray"
+        fgColor="#1c1917"
         bgColor="transparent"
         />
         <SocialIcon 
         url="https://twitter.com/jaketrent"
-        fgColor="gray"
+        fgColor="#1c1917"
         bgColor="transparent"
         />
         <SocialIcon 
         url="https://twitter.com/jaketrent"
-        fgColor="gray"
+        fgColor="#1c1917"
         bgColor="transparent"
         />
       </motion.div>
@@ -56,15 +56,15 @@ export default function Header({}: Props) {
       transition = {{
         duration: 1
       }} 
-      className="flex flex-row items-center text-gray-300 cursor-pointer">
+      className="flex flex-row items-center text-amber-700 cursor-pointer">
         <SocialIcon 
         className="cursor-pointer" 
         network="email" 
-        fgColor="gray"
+        fgColor="#1c1917"
         bgColor="transparent"
         />
 
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400"> Get in Touch</p>
+        <p className="uppercase hidden md:inline-flex text-sm text-stone-900"> Get in Touch</p>
       </motion.div>
 
     </header>
